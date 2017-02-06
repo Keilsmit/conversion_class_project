@@ -64,7 +64,7 @@ class Converter
   end
 
   def meters_to_feet
-    number * 3.28084
+    (number * 3.28084).round(3)
   end
 
   def ounce_to_gram
